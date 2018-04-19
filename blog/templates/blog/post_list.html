@@ -3,9 +3,15 @@
     <title> Hye's blog </title>
     <body>
       <p>Hi there!</p>
+
+      <link rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstraptheme.min.css">
+
       <div>
         <h1><a href="/">Django Girls Blog</a></h1>
       </div>
+      
       {% for post in posts %}
         <div>
           <p>published: {{ post.published_date }}</p>
